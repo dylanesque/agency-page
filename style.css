@@ -7,7 +7,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: lightslategray;
+  background-color: hsl(0deg, 0%, 60%);
   font-size: 112.5%;
 }
 
@@ -16,17 +16,17 @@ h1 {
 }
 
 .indented-heading {
-  background-color: gold;
-  border-bottom: 4px solid goldenrod;
-  padding: 12px;
-  margin-left: -44px;
-  margin-top: -30px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  padding: 16px;
+  margin-left: -48px;
+  margin-top: -32px;
   width: fit-content;
 }
 
 .intro-chunk {
-  border-bottom: 4px solid gray;
-  padding: 120px;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  padding: 128px;
 }
 
 .max-width-wrapper {
@@ -35,13 +35,13 @@ h1 {
 }
 
 section.max-width-wrapper {
-  margin-top: 100px;
+  margin-top: 96px;
   max-width: 800px;
-  padding: 40px;
+  padding: 48px;
 }
 
 strong {
-  color: green;
+  color: hsl(160deg, 100%, 30%);
 }
 
 /* Add styles here! */
